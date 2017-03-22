@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout style="@style/CreateLinearLayout">
+        <LinearLayout
+            style="@style/HorizontalLinearLayout"
+            android:paddingLeft="18dp">
+            <TextView
+                style="@style/CreateParameterDesc"
+                android:text="grade: "/>
+            <TextView
+                style="@style/CreateParameterData"
+                android:id="@+id/tv_cash_grade_blind"
+                android:text="10"/>
+        </LinearLayout>
+        <FrameLayout style="@style/CreateFrameLayout">
+            <com.leo.Views.Background
+                style="@style/CreateBackground"
+                android:id="@+id/background_cash_grade_blind" />
+            <SeekBar
+                style="@style/CreateSeekBar"
+                android:id="@+id/seekbar_cash_grade_blind"
+                />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/CreateLinearLayout"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            style="@style/HorizontalLinearLayout"
+            android:paddingLeft="18dp">
+            <TextView
+                style="@style/CreateParameterDesc"
+                android:text="grade: "/>
+            <TextView
+                style="@style/CreateParameterData"
+                android:id="@+id/tv_cash_grade"
+                android:text="10"/>
+        </LinearLayout>
+        <FrameLayout style="@style/CreateFrameLayout">
+            <com.leo.Views.Background
+                style="@style/CreateBackground"
+                android:id="@+id/background_cash_grade" />
+            <SeekBar
+                style="@style/CreateSeekBar"
+                android:id="@+id/seekbar_cash_grade"
+                />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/CreateLinearLayout"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            style="@style/HorizontalLinearLayout"
+            android:paddingLeft="18dp">
+            <TextView
+                style="@style/CreateParameterDesc"
+                android:text="grade: "/>
+            <TextView
+                style="@style/CreateParameterData"
+                android:id="@+id/tv_cash_grade1"
+                android:text="10"/>
+        </LinearLayout>
+        <FrameLayout style="@style/CreateFrameLayout">
+            <com.leo.Views.Background
+                style="@style/CreateBackground"
+                android:id="@+id/background_cash_grade1" />
+            <SeekBar
+                style="@style/CreateSeekBar"
+                android:id="@+id/seekbar_cash_grade1"
+                />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/CreateLinearLayout"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            style="@style/HorizontalLinearLayout"
+            android:paddingLeft="18dp">
+            <TextView
+                style="@style/CreateParameterDesc"
+                android:text="grade: "/>
+            <TextView
+                style="@style/CreateParameterData"
+                android:id="@+id/tv_cash_grade2"
+                android:text="10"/>
+        </LinearLayout>
+        <FrameLayout style="@style/CreateFrameLayout">
+            <com.leo.Views.Background
+                style="@style/CreateBackground"
+                android:id="@+id/background_cash_grade2" />
+            <SeekBar
+                style="@style/CreateSeekBar"
+                android:id="@+id/seekbar_cash_grade2"
+                />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

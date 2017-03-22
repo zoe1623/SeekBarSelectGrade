@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- SeekBar -->
+    <style name="CreateBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <!-- SeekBar -->
+    <style name="CreateSeekBar" parent="CreateSeekBarBase">
+        <!--<item name="android:layout_marginRight">15dp</item>-->
+        <!--<item name="android:layout_marginLeft">15dp</item>-->
+    </style>
+    <!-- SeekBar -->
+    <style name="CreateSeekBarBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:progressDrawable">@color/transparent</item>
+        <item name="android:thumb">@mipmap/slider</item>
+        <item name="android:max">100</item>
+    </style>
+
+    <!-- 每个SeekBar的布局 -->
+    <style name="CreateFrameLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">4dp</item>
+    </style>
+
+    <!--会员数据页,线性布局,-->
+    <style name="HorizontalLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!--创建游戏页-->
+    <!-- 每个item的布局 -->
+    <style name="CreateLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:background">@color/black_2</item>
+    </style>
+    <!-- 创建的参数描述 -->
+    <style name="CreateParameterDesc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!-- 创建的参数数据 -->
+    <style name="CreateParameterData">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginLeft">4sp</item>
+    </style>
+    <!-- 参数数据指示器 -->
+    <style name="ParameterDataIndicator">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/low_blue</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+</resources>
